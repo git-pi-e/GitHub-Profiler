@@ -8,6 +8,7 @@ async function getUser(userid){
     let user_json_data = await resp.json();
     makeCard(user_json_data);
     getUserRepos(userid);
+    console.log(user_json_data);
 }
 
 async function getUserRepos(userid){
@@ -27,13 +28,15 @@ function addReposElement(repo){
     })
 }
 
-getUser("git-pi-e");
+getUser("dummy011");
 
 function makeCard(user){
     const HTML = `
         <div class="card">
-            <div>
+            <div class="user">
                 <img class="avatar" src="${user.avatar_url}"">
+                <h2 class="name">${user.name}</h2>
+                <h3 class="userid">${user.login}</h3>
             </div>
             <div class="user-info">
                 <div class="bio">${user.bio}</div>
@@ -45,7 +48,7 @@ function makeCard(user){
                 </ul>
             </div>
             <div id="repos"></div>
-        </div>       
+        </div>
     `;
     main.innerHTML = HTML;
 }
