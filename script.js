@@ -31,12 +31,19 @@ function addReposElement(repo){
 getUser("dummy011");
 
 function makeCard(user){
+    let username = "";
+    if (user.login == null){
+        username = "Not Valid User";
+    }
+    else{
+        username = user.login;
+    }
     const HTML = `
         <div class="card">
             <div class="user">
                 <img class="avatar" src="${user.avatar_url}"">
                 <h2 class="name">${user.name}</h2>
-                <h3 class="userid">${user.login}</h3>
+                <h3 class="userid">${username}</h3>
             </div>
             <div class="user-info">
                 <div class="bio">${user.bio}</div>
