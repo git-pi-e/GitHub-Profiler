@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
  box-sizing: border-box;
  background-color: #111827;
  color: white;
+ font-family: 'Montserrat', sans-serif;
 }
 .h1{
  /* height: 60vh; */
@@ -17,7 +20,6 @@
  align-items: center;
  transform: translateY(190px);
  font-size: x-large;
- font-family:fira 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
 }
 .button{
  display: flex;
