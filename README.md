@@ -23,12 +23,28 @@ Our project makes use of [GitHub's API](https://docs.github.com/en/rest) to coll
 ![Profile Display Page](img/dummy.png)
 
 ## Learning Experience:
-<ul>
 
-<li>Git and GitHub workflow</li>
-<li>UI design on Figma</li>
+
+<strong>Arjun:</strong>
+<ul>
+<li>Git and GitHub workflow for group projects</li>
 <li>DOM manipulation</li>
 <li>Basics of asynchronous JavaScript and APIs</li>
-
 </ul>
 
+<strong>Shanay:</strong>
+<ul>
+<li>Git and GitHub workflow for group projects</li>
+<li>DOM manipulation</li>
+<li>Making responsive websites with html and css</li>
+</ul>
+
+<strong>Ankita:</strong>
+<ul>
+<li>UI design using Figma</li>
+</ul>
+
+<strong>Shourya:</strong>
+<ul>
+<li>UI design using figma</li>
+</ul>
