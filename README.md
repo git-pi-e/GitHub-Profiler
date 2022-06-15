@@ -37,12 +37,7 @@ Our project makes use of [GitHub's API](https://docs.github.com/en/rest) to coll
 <li>Making responsive websites with html and css</li>
 </ul>
 
-<strong>Ankita:</strong>
-<ul>
-<li>UI design using Figma</li>
-</ul>
-
 <strong>Shourya:</strong>
 <ul>
-<li>UI design using figma</li>
+<li>UI design using Figma</li>
 </ul>
