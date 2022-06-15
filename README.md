@@ -5,9 +5,7 @@ Find the website here: https://devsoc-mentos.github.io/GitHub-Profiler/index.htm
 
 ## UI Design:
 
-[Ankita Bisoi](https://github.com/KitVB)
-
-Shourya Naik
+[Shourya Naik](https://github.com/Sjnaik02)
 
 ## HTML, CSS, JS:
 
